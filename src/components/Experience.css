@@ -1,0 +1,101 @@
+.experience {
+  height: 300vh;
+  background-color: goldenrod;
+}
+
+#divider {
+  border-left: 1vw solid beige;
+  margin-top: 15vh;
+  height: 200vh;
+  position: absolute;
+  left: 39vw;
+}
+
+#bob {
+  border-radius: 2vw;
+  width: 4vw;
+  height: 4vw;
+  background-color: navy;
+  position: fixed;
+  left: 37.5vw;
+  top: 25vh;
+  padding-left: 0px;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.service-head1 h2 {
+  color: #fff;
+  background: Navy;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 70px;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+.comment1 {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  bottom: -14px;
+  left: 10px;
+  border-style: solid;
+  border-width: 14px 15px 0 15px;
+  border-color: Navy transparent transparent transparent;
+}
+span.line1 {
+  width: 18%;
+  background: white;
+  height: 2px;
+  display: block;
+  margin-top: 26px;
+  position: relative;
+  margin: 23px auto 0px;
+}
+.border1 {
+  content: " ";
+  position: relative;
+  background: navy;
+  height: 7px;
+  display: block;
+  width: 73px;
+  top: -4px;
+  left: 90px;
+}
+
+.underline {
+  text-decoration: underline;
+  color: white;
+  -webkit-text-decoration-color: navy;
+  text-decoration-color: navy;
+}
+
+.card1 {
+  width: 1200px;
+  margin-left: 20px;
+  background: transparent;
+  border: none;
+}
+.container-md {
+  width: -25%;
+}
+.job-description {
+  line-height: 35px;
+  font-weight: 600;
+  color: white;
+  font-size: 1.25rem;
+}
+h1,
+h3 {
+  color: white;
+}
+li {
+  margin-bottom: 15px;
+  color: white;
+}
+@media (max-width: 890px) {
+  #bob,
+  #divider {
+    display: none;
+  }
+}

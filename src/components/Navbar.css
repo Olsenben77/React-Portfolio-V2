@@ -1,0 +1,102 @@
+@media screen and (max-width: 900px) and (min-width: 800px) {
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+header {
+  text-align: center;
+  background-image: url("./Seattle.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.page-info {
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  background-color: navy;
+}
+a {
+  color: white !important;
+}
+
+.page-info ul {
+  width: 80%;
+  justify-content: space-around !important;
+  margin: 0 10% 0 10% !important;
+}
+#nav {
+  color: white;
+  font-size: 35px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+#nav :hover {
+  color: goldenrod !important;
+}
+.service-head h2 {
+  color: #fff;
+  background: goldenrod;
+  display: inline-block;
+  position: relative;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 70px !important;
+  padding: 15px;
+}
+.comment {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  bottom: -14px;
+  left: 10px;
+  border-style: solid;
+  border-width: 14px 15px 0 15px;
+  border-color: goldenrod transparent transparent transparent;
+}
+span.line {
+  width: 18%;
+  background: #8c8989;
+  height: 2px;
+  display: block;
+  margin-top: 26px;
+  position: relative;
+  margin: 23px auto 0px;
+  margin-bottom: 25px !important;
+}
+.border {
+  content: " ";
+  position: relative;
+  background: goldenrod;
+  height: 7px;
+  display: block;
+  width: 73px;
+  top: -4px;
+  left: 50px;
+}
+.btn {
+  margin-left: 533px;
+}
+
+.header-left {
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.btn {
+  margin-left: 0px !important;
+  margin-top: 20px;
+}
+span {
+  color: white;
+  margin-left: 150px;
+}
+#description {
+  text-indent: 10px;
+  font-family: "Fira Sans", sans-serif;
+}
