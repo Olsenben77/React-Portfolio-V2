@@ -18,6 +18,9 @@ function Nav() {
           {/* </Link> */}
           {/* <Link to="/Projects">*/}
           <li>
+            <a href="#About_Me">Skills</a>
+          </li>
+          <li>
             <a href="#Projects">Projects</a>
           </li>
           {/* </Link>  */}

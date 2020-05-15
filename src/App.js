@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
@@ -13,6 +14,7 @@ function App() {
     //<div className="App">
     <div>
       <Navbar />
+      <Skills />
       {/* <Switch> */}
       {/* <Route path="/" exact component={aboutMe} />
       <Route path="/Projects" component={Projects} />
