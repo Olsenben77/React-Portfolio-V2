@@ -6,8 +6,7 @@
   width: 600px !important;
   left: 15%;
   border: none !important;
-
-  display: inline-block;
+  display: flex !important;
 }
 
 ul {
