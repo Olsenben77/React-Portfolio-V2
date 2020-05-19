@@ -120,7 +120,7 @@ span {
   animation: typewriter 4s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms steps(44) infinite normal;
   border-right: 0em solid orange;
-  background: rgba(8, 8, 8, 0.5);
+  background: rgb(3, 3, 88, 0.2);
 }
 @keyframes typewriter {
   from {

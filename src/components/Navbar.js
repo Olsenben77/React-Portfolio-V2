@@ -74,13 +74,15 @@ function Nav() {
               I enjoy creating and designing websites, applications, and so much
               more!{" "}
             </h5>
-            <h5>Contact me if you have any questions. </h5>
+            <h5>Contact me if you have any questions! </h5>
+            <h5> Check out my resume!⬇️ </h5>
           </Card.Text>
           <Button
             href="https://github.com/Olsenben77/Resume/blob/master/my%20resume.pdf"
             style={{
               left: "25%",
-              color: "navy",
+              border: "black",
+              borderStyle: "solid",
             }}
           >
             {" "}
