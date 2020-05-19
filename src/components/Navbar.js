@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Cancun from "./Cancun.jpeg";
+import { Card, Button } from "react-bootstrap";
 //commented code adds route functionality
 // import{ Link } from 'react-router-dom';
 
@@ -18,7 +19,7 @@ function Nav() {
           {/* </Link> */}
           {/* <Link to="/Projects">*/}
           <li>
-            <a href="#About_Me">Skills</a>
+            <a href="#Skills">Skills</a>
           </li>
           <li>
             <a href="#Projects">Projects</a>
@@ -49,51 +50,44 @@ function Nav() {
           </span>
         </div>
       </a>
-      <div
-        className="d-flex justify-content-center mx-5"
-        style={{
-          paddingRight: "250px",
-          paddingLeft: "250px",
-          marginBottom: "35px",
-        }}
-      >
-        <div className="card mb-3">
-          <div className="row no-gutters">
-            <div className="col-md-5 col-sm-12">
-              <img
-                className="img-fluid"
-                src={Cancun}
-                alt="Cancun"
-                style={{ width: "240px", height: "365px" }}
-              />
-            </div>
-            <div className="col-md-7 col-sm-12">
-              <div className="card-body">
-                <p className="card-text text-left text-fluid" id="description">
-                  Motivated Web Developer, boasting multiple years of extensive
-                  bilingual training to support a well-rounded online
-                  experience. In the process of completing a Full Stack
-                  Development course from the University of Washington,
-                  highlighting knowledge of front-end and back-end technologies.
-                  A focused and detail-oriented professional, aspiring
-                  meaningful opportunities in web design as well as
-                  mobile-applications. With each task, my development goal
-                  centers on solid design structure, promoting high levels of
-                  user engagement and responsiveness. Enthusiastic to apply
-                  these skills and more to begin a quality career.
-                  <a
-                    className="btn btn-info"
-                    href="https://github.com/Olsenben77/Resume/blob/master/my%20resume.pdf"
-                    role="button"
-                  >
-                    View Resume <i className="far fa-file"></i>
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Card>
+        <Card.Img
+          variant="top"
+          src={Cancun}
+          style={{
+            width: "250px",
+
+            borderRadius: "10px",
+          }}
+        />
+        <Card.Body>
+          <Card.Text
+            class="line-1 anim-typewriter"
+            style={{
+              color: "white",
+              flexDirection: "wrap",
+            }}
+          >
+            Hi! I'm Ben, a Full-Stack Developer{" "}
+            <h5>
+              {" "}
+              I enjoy creating and designing websites, applications, and so much
+              more!{" "}
+            </h5>
+            <h5>Contact me if you have any questions. </h5>
+          </Card.Text>
+          <Button
+            href="https://github.com/Olsenben77/Resume/blob/master/my%20resume.pdf"
+            style={{
+              left: "25%",
+              color: "navy",
+            }}
+          >
+            {" "}
+            View Resume <i className="far fa-file"></i>
+          </Button>
+        </Card.Body>
+      </Card>
     </header>
   );
 }

@@ -75,3 +75,7 @@ span.line {
   top: -4px;
   left: 90px;
 }
+h5,
+.h5 {
+  font-size: 1.25rem;
+}

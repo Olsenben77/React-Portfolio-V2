@@ -41,7 +41,8 @@ function Footer() {
         >
           <p>
             {" "}
-            <i className="fas fa-envelope fa-lg"></i>olsenben1992@gmail.com
+            <i className="fas fa-envelope fa-lg"></i>{" "}
+            &nbsp;olsenben1992@gmail.com
           </p>
         </a>
       </div>

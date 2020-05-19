@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Card } from "react-bootstrap";
 import "./Experience.css";
 
 function Experience() {
@@ -33,16 +34,17 @@ function Experience() {
         </div>
       </a>
       <span id="divider" />
-      {scrollY.y >= 1600 ? <span id="bob" /> : ""}
+      {scrollY.y >= 2200 ? <span id="bob" /> : ""}
+
       <div className="container2">
         <div className="container-md">
           <div className="card1">
             <div className="card-body">
               <div className="row">
-                <div className="d-flex justify-content-flex-start col-md-8 col-lg-6">
+                <div className="d-flex justify-content-flex-start col-sm-6 col-md-8 col-lg-6">
                   <h1 className="underline"> Work Experience -</h1>
                 </div>
-                <div className="d-flex justify-content-center flex-column  col-md-8 col-lg-6">
+                <div className="d-flex justify-content-center flex-column  col-sm-6 col-md-8 col-lg-6">
                   <h1>Foreign Language Instructor</h1>
                   <h3>
                     Rainier Valley Leadership Academy - Seattle, WA 2019 to
@@ -54,25 +56,11 @@ function Experience() {
                       Spanish as well as leadership-centered classes.
                     </li>
                   </p>
-                  <p className="job-description">
-                    <li>
-                      Instructs multiple levels of learners on a created Spanish
-                      curriculum, adhering to specified practices and
-                      methodologies while including cultiral ties within
-                      lessons.
-                    </li>
-                  </p>
-                  <p className="job-description">
-                    <li>
-                      Organizes and plans school-wide events while developing
-                      meaningful content for leaderships style classes.
-                    </li>
-                  </p>
                   <br></br>
                 </div>
                 <div className="row">
-                  <div className="d-flex justify-content-flex-start col-md-12 col-lg-6"></div>
-                  <div className="d-flex justify-content-center flex-column  col-md-12 col-lg-6">
+                  <div className="d-flex justify-content-flex-start col-sm-6 col-md-12 col-lg-6"></div>
+                  <div className="d-flex justify-content-center flex-column col-sm-6 col-md-12 col-lg-6">
                     <h1>Foreign Language Instructor</h1>
                     <h3>Nebraska Lutheran High School - Waco, NE 2017-2019</h3>
                     <p className="job-description">
@@ -83,29 +71,15 @@ function Experience() {
                         coach.
                       </li>
                     </p>
-                    <p className="job-description">
-                      <li>
-                        Instruct a personalized established foreign language
-                        curriculum, adhering to specified methodologies,
-                        standards, and practices.
-                      </li>
-                    </p>
-                    <p className="job-description">
-                      <li>
-                        Scheduled overview and communicated supervision of
-                        dormitory residents through following of set
-                        desciplinary practices
-                      </li>
-                    </p>
                   </div>
                 </div>
               </div>
               <br></br>
               <div className="row">
-                <div className="d-flex justify-content-flex-start col-md-12 col-lg-6">
+                <div className="d-flex justify-content-flex-start col-sm-6 col-md-12 col-lg-6">
                   <h1 className="underline">Education - </h1>
                 </div>
-                <div className="d-flex justify-content-center flex-column  col-md-12 col-lg-6">
+                <div className="d-flex justify-content-center flex-column col-sm-6 col-md-12 col-lg-6">
                   <h1>UW Coding Bootcamp</h1>
                   <h3>November 2019 - May 2020</h3>
                   <p className="job-description">
@@ -119,8 +93,8 @@ function Experience() {
                 </div>
               </div>
               <div className="row">
-                <div className="d-flex justify-content-flex-start col-md-12 col-lg-6"></div>
-                <div className="d-flex justify-content-center flex-column  col-md-12 col-lg-6">
+                <div className="d-flex justify-content-flex-start col-sm-6 col-md-12 col-lg-6"></div>
+                <div className="d-flex justify-content-center flex-column col-sm-6 col-md-12 col-lg-6">
                   <h1>
                     Bachelor of Education / Bachelor of Foreign Language Studies
                   </h1>
