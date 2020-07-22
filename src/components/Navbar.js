@@ -78,7 +78,7 @@ function Nav() {
             <h5> Check out my resume!⬇️ </h5>
           </Card.Text>
           <Button
-            href="file:///C:/Users/ben.olsen/Documents/my%20resume.pdf"
+            href="https://github.com/Olsenben77/Resume/blob/master/my%20resume.pdf"
             style={{
               left: "25%",
               border: "black",
